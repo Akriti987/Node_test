@@ -6,3 +6,7 @@ if(amount<10)
 else{
     console.log("large");
 }
+
+//Global Variables 
+
+//

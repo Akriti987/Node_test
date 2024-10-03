@@ -36,3 +36,8 @@ const currentOS={
     freeMem: os.freemem(),
 }
 console.log(currentOS)
+
+//......................................PATH MODULE............................
+//PATH.js
+
+

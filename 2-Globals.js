@@ -15,15 +15,6 @@ setInterval(()=>{
 //..........................Modules......................
 // 
 
-const names = require("./names")
-console.log(names);
 
-
-const sayHi=(name)=>{
-    console.log(`Hello there ${name}`)
-}
-
-sayHi(names.john);
-sayHi(names.peter);
 //Node uses commonJS library....->every file is a module (by default)
  

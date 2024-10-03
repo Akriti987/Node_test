@@ -1,0 +1,35 @@
+Node Package Manager NPM ::
+Enables us to:
+1.Reuse our code into other projects
+2.Use cod written by other developers
+3.Share our own solution with other developers
+ The npm projects are hosted at npmjs.com
+ 
+ ...................................................
+why do we need package.json (V28)
+
+ npm - global command,comes with Node
+ npm --version
+local dependency - use it only in this particular project 
+npm i <packageName>
+
+global dependency - use it in any project
+npm install -g <packageName>
+sudo npm install -g <packageName> //in mac credentials will be 
+asked while installing a package
+
+//npm init
+//npm init -y (faster)
+//by initializing npm we get package.json file which is used to keep 
+information related to all our installed packages as dependencies in it.
+(eg: npm i lodash)
+Also npm creates node modules folder ..whic again contains the dependency folder
+(eg lodash).
+
+
+
+...........................V29 Why having package json is essential when ..............
+                       we are sharing our code to other developers
+
+                       
+
